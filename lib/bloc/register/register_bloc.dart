@@ -107,7 +107,6 @@ class RegisterBloc extends Bloc<registerPressed, RegisterState> {
 
       state2.errPhone = _errPhone(event);
       state2.isErrPhone = !_errPhone(event).isEmpty;
-
       state2.errPassword = _errPassWord(event);
       state2.isErrPassword = !_errPassWord(event).isEmpty;
 
